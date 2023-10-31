@@ -26,5 +26,5 @@ def home(request):
     logger.info('Basic Logging')
     logger.warning('Warning')
     logger.error('Error message')
-    text = """<h1>this is the home page"""
+    text = """<h1>this is the home page!</h1>"""
     return HttpResponse(text)
