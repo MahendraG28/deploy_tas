@@ -19,7 +19,7 @@ def hello(request):
     logger.info('Basic Logging')
     logger.warning('Warning')
     logger.error('Error message')
-    text = """<h1>Hello, Welcome to my App!</h1>"""
+    text = """<h1>Hello, Welcome to my App!!!!</h1>"""
     return HttpResponse(text)
 
 def home(request):
